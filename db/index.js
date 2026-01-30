@@ -20,14 +20,18 @@ const db = new sqlite3.Database(dbPath, (err) => {
 
 // INIT TABLE
 db.run(`
-  CREATE TABLE IF NOT EXISTS links (
-    id TEXT PRIMARY KEY,
-    sender_name TEXT NOT NULL,
-    target_name TEXT NOT NULL,
-    message TEXT,
-    views INTEGER DEFAULT 0,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-  )
+    CREATE TABLE IF NOT EXISTS links (
+      id TEXT PRIMARY KEY,
+      sender_name TEXT NOT NULL,
+      target_name TEXT NOT NULL,
+      message TEXT,
+      views INTEGER DEFAULT 0,
+
+      step INTEGER DEFAULT 1,
+      answers TEXT,
+
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    )
 `);
 
 export default db;

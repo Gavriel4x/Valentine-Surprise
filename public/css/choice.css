@@ -1,0 +1,41 @@
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.valentine-bg {
+  background: linear-gradient(135deg, #fde2e4, #f7d9ff);
+}
+
+.valentine-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 28px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border: none;
+}
+
+.choice-btn {
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid #eee;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.choice-btn:hover {
+  transform: translateY(-2px);
+  background: #fdf2f8;
+  border-color: #fbcfe8;
+}
+
+.progress {
+  background-color: #f3f3f3;
+  border-radius: 999px;
+}
+
+.progress-bar {
+  border-radius: 999px;
+}
