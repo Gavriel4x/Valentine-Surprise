@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Valentine Questionaire</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="valentine-bg">
+
+  <div class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card valentine-card shadow-lg p-4">
+      <h2 class="text-center mb-4">💖 Valentine Choice</h2>
+
+      <form method="POST" action="/create">
+        <input class="form-control mb-3" placeholder="Nama kamu" name="senderName" required>
+        <input class="form-control mb-3" placeholder="Nama pasanganmu" name="targetName" required>
+        <textarea class="form-control mb-4" placeholder="Pesan (opsional)" name="message"></textarea>
+
+        <button class="btn btn-love w-100">
+          Generate Link ❤️
+        </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* BACKGROUND */
+.valentine-bg {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* CARD */
+.valentine-card {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 24px;
+  border: none;
+  background: white;
+}
+
+/* BUTTON */
+.btn-love {
+  background: #ff4d6d;
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 999px;
+  border: none;
+}
+
+.btn-love:hover {
+  background: #e63950;
+}
+
+/* INPUT */
+.form-control {
+  border-radius: 12px;
+  padding: 12px;
+}
+
+/* OPENING CARD SPECIFIC */
+.opening-card {
+  padding: 32px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.8)
+  );
+  backdrop-filter: blur(8px);
+}
+
+/* TITLE */
+.opening-card .title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* NAME HIGHLIGHT */
+.opening-card .name {
+  color: #ff5c8a;
+}
+
+/* SUBTITLE */
+.opening-card .subtitle {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* BUTTON OVERRIDE */
+.opening-card .btn-love {
+  font-size: 1rem;
+  padding: 14px;
+}
