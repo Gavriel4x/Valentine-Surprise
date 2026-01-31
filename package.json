@@ -1,13 +1,13 @@
 {
   "name": "valentine-surprise",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple web app to send anonymous valentines",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gavriel Reynard",
   "license": "ISC",
   "type": "module",
   "dependencies": {
